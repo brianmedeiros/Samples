@@ -1,0 +1,294 @@
+body {
+	margin: 0px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#mwPage {
+	position: relative;
+	width: 100%;
+	height: 1080px;
+	overflow: hidden;
+}
+
+#mw {
+	position: absolute;
+	left: 0px;
+	width: 77%;
+	height: 1000px;
+}
+
+#mwHead {
+	display: block;
+	margin: 40px auto 15px;
+	width: 892px
+}
+
+#mwBody {
+	margin: 0 auto;
+	width: 1100px;
+}
+
+#mwSide {
+	position: absolute;
+	right: 0px;
+	width: 435px;
+	height: 1080px;
+}
+
+
+.item {
+	padding: 0px;
+	margin: 60px 0;
+	height: 615px;
+	z-index: -1;
+	background: url('../images/boxshadow-s.png') no-repeat bottom;
+	background-size: 100%;
+}
+
+.item.filler {
+	border: none;
+	background: none;
+}
+
+.item.itemSelect {
+	height: 750px;
+	width: 512px;
+	margin: 0px 0px 0 -56px;
+	background: url('../images/boxshadow.png') no-repeat bottom;
+	background-size: 100%;
+	z-index: 5;
+}
+
+
+.item.video {
+	width: 100%;
+}
+.item.video.itemSelect {
+	position: relative;
+	width: 640px;
+	margin-left: -137px;
+}
+
+.item.video .mwCard {
+	font-size: 1em;
+}
+.item.itemSelect.video .mwCard {
+	width: 640px;
+	font-size: 1.5em;
+}
+
+.mwCard {
+	width: 347px;
+	height: 600px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	background: #fff;
+	overflow: hidden;
+	font-size: 16px;
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+}
+
+.item.visible .mwCard {
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+.mwCardUser {
+	font-weight: bold;
+}
+
+.mwCardUser, .mwCardText, .mwCardDate {
+	padding: 20px;
+	font-size: 1em;
+}
+
+.mwCardDate {
+	color: #999;
+}
+
+
+.mwCardImg {
+	width: 340px;
+}
+
+.itemSelect .mwCard {
+	height: 730px;
+	width: 512px;
+	font-size: 18px;
+	z-index: 500;
+	margin-left: 0px;
+}
+
+.itemSelect .mwCard .mwCardImg {
+	width: 512px;
+}
+
+.mwCardTwitter, .mwCardInstagram{
+	width: 111px;
+	height: 70px;
+	position: absolute;
+	bottom: 10px;
+	left: 220px;
+}
+
+.mwCardVideo {
+	width: 120px;
+	height: 75px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.itemSelect .mwCard .mwCardTwitter, 
+.itemSelect .mwCard .mwCardInstagram {
+	bottom: 10px;
+	left: 395px;
+}
+
+.mwCardTwitter {
+	background: url('../images/via-twitter.png');
+}
+.mwCardInstagram {
+	background: url('../images/via-instagram.png');
+}
+.mwCardVideo {
+	background: url('../images/via-video.png');
+}
+
+/*Side panel*/
+.sidePanel {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 1080px;
+}
+#panel2 {
+	background: url('../images/sidebarbg.png') no-repeat;
+	width: 435px;
+	height: 1080px;
+}
+
+#sidePanelWeather {
+	display: block;
+	position: absolute;
+	width: 435px;
+	overflow: hidden;
+	height: 230px;
+}
+
+#sidePanelWeatherTitle{
+	background: url('../images/brand-facts.png') no-repeat;
+	width:358px;
+	height:51px;
+	margin:0 auto;
+}
+
+#sideWeather {
+	display: block;
+	height: 225px;
+	margin: 40px auto;
+	z-index: 1;
+}
+#sideCity {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin: -275px 0 0px 0px;
+	width: 100%;
+}
+#sideTemp {
+	font-size: 82px;
+	font-weight: bold;
+	text-align: center;
+	margin: 25px 0 0px 10px;
+	width: 100%;
+}
+
+#sidePanelBrandCopy {
+	font-size: 22px;
+	display: block;
+	position: absolute;
+	width: 420px;
+	height: 275px;
+	top: 260px;
+	margin: 0 0 0 15px;
+}
+#sidePanelBrandCopy img{
+	display:block;
+	width:358px;
+	margin: 0 auto;
+}
+
+#sidePanelTwitter {
+	background: url("../images/tweetfeed.png") top no-repeat;
+	display: block;
+	position: absolute;
+	width: 420px;
+	height: 505px;
+	top: 550px;
+	margin: 0px 0 0 15px;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.sideCard {
+	margin: 5px 0 15px;
+}
+
+.sideCardUser {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.sideCardText {
+	font-size: 14px;
+}
+
+#links {
+	position: fixed;
+	bottom: 40px;
+	left: 18%;
+}
+
+#links a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	font-size: 20px;
+	margin: 0 0.5em;
+}
+
+#links a img {
+	vertical-align: middle;
+}
+#links a span {
+	margin: 0 0.5em;
+}
+
+.gold {
+	color: #c79c51;
+}
+
+.sideCardDate {
+	color: #999;
+	font-size: 12px;
+}
+
+.product {
+	float: right;
+	height: 800px;
+	margin: 140px 20% 0 0;
+}
+
+.product, .brandFact {
+	display: none;
+}
+#product1, #brandFact1 {
+	display: block;
+}

@@ -1,0 +1,134 @@
+
+@font-face {
+    font-family: 'SamsungIFBd';
+    src: url('SamsungIF_Bd.eot');
+    src: url('SamsungIF_Bd.eot?#iefix') format('embedded-opentype'),
+         url('SamsungIF_Bd.woff') format('woff'),
+         url('SamsungIF_Bd.ttf') format('truetype'),
+         url('SamsungIF_Bd.svg#SamsungIF_Bd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungIFRg';
+    src: url('SamsungIF_Rg.eot');
+    src: url('SamsungIF_Rg.eot?#iefix') format('embedded-opentype'),
+         url('SamsungIF_Rg.woff') format('woff'),
+         url('SamsungIF_Rg.ttf') format('truetype'),
+         url('SamsungIF_Rg.svg#SamsungIF_Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SamsungIFBd */
+#wrap #contentHead h1, #wrap #contentHead .pageTitle, .productInfo, .productInfo a, .productNav li a, .btnStyle span, .btnStyle.tw span strong, .btnStyle.tw:hover span strong, .submitStyle[type="submit"], #kv.kvGraphic .kvInfo p.price, #kv.kvText .kvInfo p.price, #content_p2.mg .headtitle > h2, .dropdown .fe_ddTriggerWrap a, .dropdownBig .fe_ddTriggerWrap a, .notFound .summ .account h2, .retailer .prdInfo li strong {font-family:'SamsungIFBd', 'Arial', 'sans-serif'; }
+
+/* SamsungIFMd */
+.compWrap h2, #lnb li, #contentHead .breadcrumb, #contentHead .breadcrumb a, #contentHead .breadcrumb span, .path span, #contentHead .upcCode, .btnStyle.tw span,.btnStyle.tw:hover span, .byCategory.prd ul li strong, #kv .kvArea h2, #kv .keyLink li, .kvText p, #kv.kvGraphic p, #kv.general .moreLink, #kv.dynamic .kvArea .modelCode, #kv.dynamic .keyLink li, #content_p2.mg .pathindicator_p2, p.sideH a, .desc .headTitle, #finder, .searchResult label, .byCategory.prd ul li strong, .searchmore p, .lookingFor .subTitle, .resultLayer h2:first-child, .resultLayer h3, .browsePrd .type h4,.browsePrd .modelNum h4, .compareResults h3, .notFound .byCategory ul li strong, .consumerReview .allRating li, .reviewList .desc h3, .winPop h2, .foot .faqList div h3, .gal h3, #lnb li, .kvText .kvArea h3 {font-family: 'SamsungIFBd', 'Arial', 'sans-serif';}
+
+/* SamsungIFRg */
+#footer .siteLink h2, .homeNav ul li a, .homeContent #twitter p, .homeContent #videos .account, .summList .account h2, .consumerReview .reviews h3, .consumerReview .submit h3, .printSolution h2 {font-family:'SamsungIFRg', 'Arial', 'sans-serif';}
+
+/* Arial */
+.topicList .desc .headTitle {font-family:'Arial', 'sans-serif';}
+
+/*footer*/
+.foot .contactUs .desc {margin-bottom: 0; min-height: 457px;}
+.foot .contactUs .desc .moreLink.liveChat {margin-bottom: 0;}
+.foot .contactUs .desc .moreLink.liveChat img {padding-right: 10px;}
+.foot .contactUs .desc p.liveChat {margin: 6px 0 22px;}
+
+/*************** GNB Roll out css add 20121127 JYM ****************/
+
+/* Header */
+#header .logo {margin:24px 38px 0 0;}
+
+/* Util */
+#util { position:absolute; top:0; right:20px; margin:0; z-index:1;}
+#util ul {overflow:hidden; margin:14px -8px 0 0;}
+
+/* Search area in header */
+#header .search {top:37px; width:164px;}
+#header .search input, #footer .search input {width:128px; padding:0 5px 1px 9px !important; background-color:transparent; line-height:23px;}
+.search {height:23px;}
+.search button {vertical-align:middle;}
+
+/* Auto completed layer */
+.search_layer_gnb {width:164px;}
+
+/* Color Themes */
+#colorThemes {overflow:hidden; position:absolute; right:20px; top:11px; z-index:99;}
+
+/* New GNB */
+#globalNav ul li a {padding:13px 19px 23px;}
+#globalNav ul li.business {position:static;}
+#globalNav ul li.business .menu {left:20px; top:79px}
+#globalNav ul li.business .menu ul li ul {margin-left:5px;}
+#globalNav ul li.business .menu ul li ul li a {padding-left:0;}
+#globalNav ul li.business .menu ul li.nav3 h3 {margin:3px 0 4px;}
+#globalNav ul li.business .menu ul li.nav3 h3 a, #globalNav ul li.business .menu ul li.nav2 h3 a:hover {color:#ccc; text-decoration:none; cursor:default;}
+#globalNav ul li.business .menu ul li.nav3 {width:324px; overflow:hidden;}
+#globalNav ul li.business .menu ul li.nav3 .figure {float:left; width :162px;}
+#globalNav ul li.business .menu ul li.nav3 h2 {clear:both;}
+#globalNav ul li.business .menu ul li.nav3 ul {width:336px;}
+#globalNav ul li.business .menu ul li.nav3 ul li {float:left; width:162px; padding:0;}
+#globalNav ul li.business .menu ul li.nav3 ul li ul {width:147px; margin-left:0;}
+#globalNav ul li.business .menu ul li.nav3 ul li ul li {clear:both; width:147px; padding:3px 0 4px;}
+#globalNav ul li.support {position:static;}
+#globalNav ul li.support .menu {top:79px; left:auto; right:20px;}
+#globalNav ul li.promotions {width:auto;}
+
+#globalNav.ir ul li.consumer ul li .figure span {background:#fff url(http://www.samsung.com/ca/consumer-images/gnb-images/img_gnb_consumer.jpg) no-repeat 0 0;}
+#globalNav.ir ul li.consumer .menu ul li:first-child .figure span {background:#fff url(http://www.samsung.com/ca/consumer-images/gnb-images/img_gnb_consumer.jpg) no-repeat 0 0;}
+
+#globalNav.ir ul li.business ul li .figure span {background:#fff url(http://www.samsung.com/ca/consumer-images/gnb-images/img_gnb_business.jpg) no-repeat 0 0;}
+#globalNav.ir ul li.business .menu ul li:first-child .figure span {background:#fff url(http://www.samsung.com/ca/consumer-images/gnb-images/img_gnb_business.jpg) no-repeat 0 0;}
+
+#globalNav.ir ul li.samsungApps ul li .figure span {background:#fff url(http://www.samsung.com/ca/consumer-images/gnb-images/img_gnb_samsung_apps.jpg) no-repeat 0 0;}
+#globalNav.ir ul li.samsungApps .menu ul li:first-child .figure span {background:#fff url(http://www.samsung.com/ca/consumer-images/gnb-images/img_gnb_samsung_apps.jpg) no-repeat 0 0;}
+
+#globalNav.ir ul li.support ul li .figure span {background:#fff url(http://www.samsung.com/ca/consumer-images/gnb-images/img_gnb_support.jpg) no-repeat 0 0;}
+#globalNav.ir ul li.support .menu ul li:first-child .figure span {background:#fff url(http://www.samsung.com/ca/consumer-images/gnb-images/img_gnb_support.jpg) no-repeat 0 0;}
+
+/* Footer */
+#footer .siteLink {padding-top:17px}
+#footer .siteLink ul li a.blank {display:inline; zoom:1; padding-right:15px; background:url(http://www.samsung.com/common/img/ico_blank_small_skyblue.gif) no-repeat right bottom;}
+#footer .aboutArea {width:106px;}
+#footer .aboutArea ul {float:left; padding-right:23px;}
+#footer .aboutArea ul li {display:block; float:left; width:96px;}
+#footer .productArea ul li {min-height:157px; height:auto !important; height:157px; color:#ccc; font-size:12px;}
+#footer .productArea ul li a {color:#ccc;}
+#footer .productArea ul li a:hover {text-decoration:underline;}
+#footer .productArea ul li ul {padding-top:4px;}
+#footer .productArea ul li ul li {font-size:11px;}
+#footer .custom {position:relative;}
+#footer .custom .search {top:-95px; right:0;}
+#footer .custom .feedback {display:none;}
+#footer .otherLink {padding:2px 0;}
+#footer .otherLink ul {float:left; overflow:hidden;}
+#footer .otherLink ul:after {content:" "; display:block; clear:both;}
+#footer .otherLink .copyright {padding:5px 0 12px; }
+
+/* Page not Found */
+.notFound .desc {margin:19px 83px 27px;}
+.notFound .desc .account {background:url(http://www.samsung.com/common/img/bg_notFound.gif) no-repeat 0 2px;}
+.notFound .desc .account h2 {margin-bottom:9px;}
+.notFound .desc .account p {margin-top:0; line-height:1.333em;}
+.notFound .desc .account p.moreLink {margin-top:4px;}
+.notFound .desc .account .moreLink a {display:inline; background:url(http://www.samsung.com/common/img/bul_arrow_double_blue.gif) no-repeat right center;}
+
+/* 2013-01-04 add CYN */
+ #lnb li {font-family:'SamsungIFRg', 'Arial', 'sans-serif';}
+
+/* Canada Sponsor */ 
+#footer .footer_spon {position:relative;width:960px; margin:0 auto; overflow:hidden;text-align:right;padding-bottom:11px;top:-6px;}
+html>body #footer .footer_spon {top:-7px;padding-bottom:4px;}
+*:first-child+html #footer .footer_spon {top:-2px;padding-bottom:8px;}
+#footer .footer_spon p {line-height:120%;font-weight:normal;}
+#footer .footer_spon .Sponsor {float:right; vertical-align:bottom;width:185px;}
+#footer .footer_spon .Sponsor span {position:relative;top:20px;color:#fff;float:left;text-align:left;}
+#footer .footer_spon .Sponsor img {float:left;padding-right:10px;}
+#footer .footer_spon .Sponsor2 {float:right; vertical-align:bottom;width:165px;}
+#footer .footer_spon .Sponsor2 span.spontext {position:relative;top:35px;color:#fff;float:left;text-align:left;}
+#footer .footer_spon .Sponsor2 img {float:left;padding-right:10px;}
