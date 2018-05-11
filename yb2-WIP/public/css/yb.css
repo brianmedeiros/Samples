@@ -1,0 +1,39 @@
+#ybHeadBox{
+    background-color: #fff;
+    border: #000 thin solid;
+    background: url(../img/hero-table.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+#heroImg{
+    max-width: 100%;
+}
+
+#heroBtn{
+    border-radius: 0px;
+    border-color: #000;
+}
+.btn-success{
+    background-color: #2fda02;
+}
+
+.nav-pills>li>a{
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+
+
+.chocolateAppBtn{
+  display: block;
+  border: #2fda02 solid 4px;
+  text-align: center;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.chocolateAppBtn img{
+    height:50px;
+}
+
+.chocolateAppBtn.navOn{
+    border-color: #fb0085;
+}

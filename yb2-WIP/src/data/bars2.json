@@ -1,0 +1,6 @@
+{
+    "bars":[
+        {"name" : "Bar 21", "img" : "bar1.jpg"},
+        {"name" : "bar22", "img" : "bar2.jpg"}
+    ]
+}
