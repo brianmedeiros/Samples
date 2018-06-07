@@ -1,39 +1,137 @@
 #ybHeadBox{
     background-color: #fff;
-    border: #000 thin solid;
-    background: url(../img/hero-table.jpg) no-repeat;
+    border: #fff thin solid;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    background: url(../img/hero-img-pods.jpg) no-repeat;
     background-size: 100% 100%;
 }
 #heroImg{
     max-width: 100%;
 }
 
-#heroBtn{
-    border-radius: 0px;
-    border-color: #000;
+.ybShopBtn{
+    border-radius: 24px;
+    border:4px solid #2fda02;
+    background: #fff;
+    color: #000;
 }
-.btn-success{
-    background-color: #2fda02;
+.ybShopBtn:hover{
+    color: #337ab7;
+    background-color: #f8f8f8;
 }
 
-.nav-pills>li>a{
-    border-radius: 0px;
+.ybNav-btn, .nav-pills>li>.ybNav-btn{
+    border-radius: 24px;
     margin-bottom: 5px;
 }
+.nav-pills>li.active>a.ybNav-btn{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+}
+
 
 
 .chocolateAppBtn{
   display: block;
-  border: #2fda02 solid 4px;
-  text-align: center;
-  padding: 15px 0;
+  border: #fff solid 1px;
+  border-radius: 24px;
+  text-align: left;
+  padding: 5px 10% 5px 15px;
+  margin: 3px 0;
+  font-size: 1.5em;
   cursor: pointer;
+  background: #fff no-repeat 95% 5px;
+  background-size: auto 80%;
+  height: auto;
+  width: 100%;
+  color: #333;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
 }
 
-.chocolateAppBtn img{
-    height:50px;
+.chocolateAppBtn.btn1{
+    background-image: url('/img/icons/icon-fruit.png');
+}
+.chocolateAppBtn.btn2{
+    background-image: url('/img/icons/icon-bold.png');
+}
+.chocolateAppBtn.btn3{
+    background-image: url('/img/icons/icon-inclu.png');
+}
+.chocolateAppBtn.btn4{
+    background-image: url('/img/icons/icon-sweet.png');
 }
 
 .chocolateAppBtn.navOn{
-    border-color: #fb0085;
+    border:4px solid #fb0085;
+}
+.chocolateAppBtn:focus{
+    outline: #fff;
+}
+
+.heroBar{
+    padding:15px 0 45px;
+}
+
+
+.heroBar-img{
+    max-height: 600px;
+    max-width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+.heroBar-info{
+    display: block;
+    font-size: 18px;
+    padding: 75px 15px 0;
+}
+
+.heroBar-link{
+    margin: 15px;
+}
+
+.barList{
+    max-height: 240px;
+    padding: 25px 0 0;
+}
+
+.barList-row{
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin: 15px 0 0;
+    cursor: pointer;
+}
+.barList-row:hover{
+    background-color: #f8f8f8;
+    border: #f0f0f0 solid 1px;
+}
+
+.barList-row-img{
+    display: block;
+    float: left;
+    max-height: 80px;
+    padding: 0 20px 0 0;
+    max-width: 25%;
+}
+
+.scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
 }
